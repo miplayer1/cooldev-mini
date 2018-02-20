@@ -1,0 +1,202 @@
+/*---------------------------------------------------------------------
+	* @site   Cooldev.xyz
+	* @autors cooldev crew
+	* @media responsive
+	* @version 4.0
+	* @lastmodified Fev, 9 2018
+	
+	-------------------------------------------------------------------*/
+	
+	/*------------------------------------------------------------------
+					[Table of contents]
+					
+					1. COLORS
+					2. FONTS
+					3. HELPERS
+					4. GENERAL
+					5. TYPO generic
+					6. HEADER
+					7. NAV
+					8. SECTIONS / PAGES
+					9. SECTION 1
+					10. SECTION 2
+					11. SECTION 3
+					. CONTACT
+					. FOOTER
+					. MEDIA QUERIES
+-------------------------------------------------------------------*/
+	
+	
+	
+/*
+
+	 ***********************  
+    
+    ***   1. Colors     ***
+    
+    ***********************
+    
+    
+			couleur rose : #ffbbdbff
+			couleur bleu :#bde1deff
+			jaune :#FEE69D
+			couleur textes grey : #424242
+			
+*/
+/* 
+	***********************
+	
+	**      2.FONTS    **
+	
+	***********************
+
+
+    font-family: 'Roboto', sans-serif;
+
+    font-family: 'Comfortaa', cursive;
+	*/
+/* 
+	***********************
+	
+	**      3.HELPERS    **
+	
+	***********************
+	*/
+
+/* Helpers material-icons*/
+
+.material-icons.md-18 { font-size: 18px; }
+
+.material-icons.md-24 { font-size: 24px; }
+
+.material-icons.md-36 { font-size: 36px; }
+
+.material-icons.md-48 { font-size: 48px; }
+
+.material-icons.md-60 { font-size: 60px; }
+
+
+.no-padding-bottom {
+	padding-bottom: 0!important;
+}
+.no-margin-top {
+	margin-top:0!important;
+}
+.no-padding-top {
+	padding-top: 0!important;
+}
+.no-margin-bottom {
+	margin-bottom: 0!important;
+}
+
+
+	
+/* 
+	***********************
+	
+	**     4.GENERAL     **
+	
+	***********************
+	*/
+	
+html {
+	color: #424242;
+}
+
+/* 
+	***********************
+	
+	**      5. TYPO      **
+	
+	***********************
+	*/
+
+p {
+	font-family: 'Comfortaa', cursive;
+	font-size: 1rem;
+}
+
+/* 
+	***********************
+	
+	**     6.HEADER     **
+	
+	***********************
+	*/
+	
+header {
+
+  position: relative;
+  display: flex;
+  height: 100vh;
+  background-color: #5EDFC6;
+  background-image: url(../assets/img/fond-header.svg), url(../assets/img/background.svg);
+  background-position: bottom center, top center;
+  background-size: 100%, cover;
+  background-repeat: no-repeat, repeat;
+  
+
+}
+
+#logo img {
+	width:150px;
+}
+
+.header-content h1 {
+  font-size: 1.3rem;
+  font-family: 'Comfortaa', cursive;
+}
+.header-content {
+  margin: auto;
+  margin-top: 20px;
+  z-index: 2;
+}
+
+
+.social a {
+	padding: 5px;
+}
+.social img {
+ max-width: 30px;
+} 
+
+/* 
+	***********************
+	
+	**13.MEDIA QUERIES<3 **
+	
+	***********************
+	*/
+
+@media all and (min-width: 601px){
+	header h1{
+		font-size: 1rem!important;
+	}
+	header h2{
+	font-size: 1.2rem;}
+	#logo img {
+	width:200px;
+}
+	.header-content img{
+	width: 25%;
+}
+	
+}
+@media all and (min-width: 801px){
+
+  header h1{
+		font-size: 1.2rem!important;
+  		}
+  	header h2{
+	font-size: 2rem;}
+}
+
+@media all and (min-width: 1200px){
+	header h1{
+		font-size: 1.7rem!important;
+  	}
+	header  {
+		background-size: 100%, cover;	
+	}
+}
+

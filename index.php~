@@ -4,7 +4,9 @@
   <head>
     <meta charset="utf-8"/>
     <title>Cooldev, collectif de développeur&#183;se&#183;s engagé&#183;e&#183;s</title>
+    <!--[if IE]>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <![endif]-->
     <meta name="keywords" content="developpement web, création de sites web, accessibilité web, UX, green it, usabilité, conception de sites web Marseille" />
     <meta name="publisher" content="cooldev">
     <meta name="description" content="Pour un web accessible, respectueux des gens et de la planète" />

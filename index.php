@@ -15,7 +15,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css?family=Comfortaa%7cRoboto" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css" />
-    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/main.min.css" />
     <link rel="Shortcut icon" href="favicon.ico" type="image/x-icon" />
 
 <!-- Open Graph Meta Tags -->
@@ -47,7 +47,7 @@
   <body >
 <?php include('private/views/header.php');?>
 
- <script type="text/javascript" src="js/main.js"></script>
+ <script type="text/javascript" src="js/main.min.js"></script>
 
   </body>
 </html>
